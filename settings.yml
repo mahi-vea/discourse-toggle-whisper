@@ -1,0 +1,9 @@
+toggle_whisper_allowed_groups:
+  type: list
+  list_type: group
+  default: "3"
+  resolve_group_membership: true
+
+toggle_whisper_endpoint:
+  type: string
+  default: ""

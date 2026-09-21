@@ -2,3 +2,7 @@ en:
   toggle_button_title:
     whisper: "Make Whisper"
     regular: "Make Regular Post"
+  theme_metadata:
+    settings:
+      toggle_whisper_allowed_groups: "Groups whose members see the whisper toggle button. Note: Discourse core only lets staff change a post's type, so non-staff groups also need <b>Toggle whisper endpoint</b> to be set."
+      toggle_whisper_endpoint: "Optional. Full URL of your own backend that performs the toggle with an API key. When blank, the button calls Discourse's built-in staff-only route. When set, the button POSTs {post_id, post_type, username} to this URL instead."
